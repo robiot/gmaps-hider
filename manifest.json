@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "description": "Hides all text revealing location on Google Maps street view",
   "permissions": [
-    "scripting"
+    "scripting",
+    "activeTab"
   ],
   "icons": {
     "128": "icon-128.png"
@@ -14,9 +15,6 @@
     "service_worker": "background.js"
   },
   "content_scripts": [],
-  "host_permissions": [
-    "http://*/*", "https://*/*"
-  ],
   "web_accessible_resources": [
     {
       "resources": [
